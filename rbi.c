@@ -11,6 +11,8 @@
  * * compact memory representation: option to store the red-black bit of the balanced implmenetation in the least signigicant bit of the (right) pointer
  * * operations other than lookup, insertion and iteration are not implemented
  *
+ * rbi.c is free software, GNU GPL >=2.0. There is NO WARRANTY. Use at your risk.
+ *
  * Compile with: gcc -DRB_BALANCED   -s -Os -W -Wall -Werror -o try_ba rbi.c
  * Compile with: gcc -DRB_UNBALANCED -s -Os -W -Wall -Werror -o try_ub rbi.c
  * Compile with: gcc -DRB_UNORDERED  -s -Os -W -Wall -Werror -o try_uo rbi.c
